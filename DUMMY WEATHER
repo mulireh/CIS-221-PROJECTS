@@ -1,0 +1,117 @@
+<html>
+    <head>
+        <title>
+            Dummy Weather Data
+        </title>
+    </head>
+    
+        <style>
+            h1{
+                text-align: center;
+                
+                font-style: normal;
+            }
+           
+        
+            
+        </style>
+    <body>
+        
+        <h1>
+            <hr style="width: 300px;">Dummy Weather Data
+        </h1>
+        <p>
+            <style>
+                p{
+                     
+            
+                font-style: normal;
+                text-align: center;
+                
+            }
+            </style>    <img src="weather.img.jpg" widht="20" height="20">Currently<br/>
+            21&deg;in Tokyo
+        </p>
+        
+    </body>
+    <p>
+        <style>
+            p{
+                 
+        
+            font-style: normal;
+            text-align: center;
+            
+        }
+        </style>     <img src="rain.img.jpg" widht="20" height="20">Tomorrow<br/>
+            10&deg;/21&deg;
+    </p>
+    <p>
+        <style>
+            p{
+                 
+        
+            font-style: normal;
+            text-align: center;
+            
+        }
+        </style>    <img src="weather.img.jpg" widht="20" height="20">Saturday<br/>
+            15&deg;/17&deg;
+    </p>
+    <p>
+        <style>
+            p{
+                 
+        
+            font-style: normal;
+            text-align: center;
+            
+        }
+        </style>     <img src="sun.img.jpg" widht="20" height="20">Sunday<br/>
+            25&deg;/28&deg;
+    </p>
+    <h2>
+        <style>
+        h2{
+            text-align: center;
+            
+            font-style: normal;
+            background-color: blue;
+            border-radius: 50px ;
+            width: 130px;
+            height: 50px;
+            box-sizing: 50px;
+            font-size: small;
+            display: flex;
+            align-items: center;
+        
+            justify-content: center;
+            margin-right: auto;
+            margin-left: auto;
+            color: aliceblue;
+            box-shadow: inset 0 0 0 4px rgb(165, 161, 90);
+            
+            
+            
+
+        }
+        
+    
+        </style>
+         CHANGE CITY
+    </h2>
+    <h3>
+        <style>
+            h3{
+                text-align: center;
+            }
+            
+        </style><hr style="width: 180px;">
+        Coded by Faith Muli<br/>
+        
+
+    </h3>
+
+
+    
+</html>

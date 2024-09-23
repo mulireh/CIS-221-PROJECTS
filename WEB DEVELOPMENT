@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <title>
+            Web Development and  Programming
+        </title>
+    </head>
+    
+        <style>
+            h1{
+                text-align: center;
+                color: blueviolet;
+                text-decoration: underline;
+                font-style: normal;
+                font-weight: 100px;
+                font-size: 50px;}
+                h2{
+                    text-align: center;
+                    color: black;
+                    font-style: normal;
+                }
+                h3{
+                    text-align: center;
+                    color: cornflowerblue;
+                    border-radius: 0%;
+                }
+                h4{
+                    text-align: center;
+                    color: black;
+                    font-style: normal;
+                }
+                h5{
+                    text-align: center;
+                }
+        
+            
+        </style>
+    <body>
+        <h1>
+            Web development and Programming
+        </h1>
+        <h2>
+            Coding Workshop
+        </h2>
+        <h3>
+            Apply Now
+        </h3>
+        <p1>
+            <style>p1{
+                color:blue;
+                text-decoration: underline;
+
+            }
+            p2{color: crimson;
+            text-decoration: underline;}
+            p3{
+                color: green;
+                text-decoration: underline;
+            }
+                
+            </style>
+            <ul>
+                <li>Maseno University </li>
+            </ul>
+            
+            
+        </p1>
+        <p2><ul><li>University Elearning Platforms</li></ul> </p2>
+        <p3><ul><li>University Programs</li></ul></p3>
+        <h4>
+            More Info
+        </h4> <h5><img src="black female coding.img.jpg" widht="200" height="200"</h5>
+        
+    </body>
+</html>

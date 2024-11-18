@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Management System</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to CSS file -->
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>EMS Logo</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#profile">Profile</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <aside class="sidebar">
+            <h2>Modules</h2>
+            <ul>
+                <li><a href="#registration">Registration</a></li>
+                <li><a href="#login">Login</a></li>
+                <li><a href="#finance">Finance</a></li>
+                <li><a href="#departments">Departments</a></li>
+                <li><a href="#procurement">Procurement</a></li>
+                <li><a href="#leave">Leave</a></li>
+            </ul>
+        </aside>
+
+        <main class="main-content">
+            <section id="registration">
+                <h2>Registration</h2>
+                <form>
+                    <label for="fullName">Full Name:</label>
+                    <input type="text" id="fullName" name="fullName" required>
+
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required>
+
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+
+                    <label for="confirmPassword">Confirm Password:</label>
+                    <input type="password" id="confirmPassword" name="confirmPassword" required>
+
+                    <label for="department">Department:</label>
+                    <select id="department" name="department">
+                        <option value="hr">HR</option>
+                        <option value="finance">Finance</option>
+                        <option value="it">IT</option>
+                        <option value="sales">Sales</option>
+                    </select>
+
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </form>
+            </section>
+
+            <section id="login">
+                <h2>Login</h2>
+                <form>
+                    <label for="loginEmail">Email Address:</label>
+                    <input type="email" id="loginEmail" name="loginEmail" required>
+
+                    <label for="loginPassword">Password:</label>
+                    <input type="password" id="loginPassword" name="loginPassword" required>
+
+                    <button type="submit">Login</button>
+                    <a href="#forgotPassword">Forgot Password?</a>
+                </form>
+            </section>
+
+            <section id="finance">
+                <h2>Finance</h2>
+                <p>Total Budget: $X</p>
+                <p>Expenditure: $Y</p>
+                <p>Revenue: $Z</p>
+                <button>Add Expense</button>
+                <button>Generate Report</button>
+            </section>
+
+            <section id="departments">
+                <h2>Departments</h2>
+                <table>
+                    <tr>
+                        <th>Department Name</th>
+                        <th>Manager</th>
+                        <th>Number of Employees</th>
+                        <th>Actions</th>
+                    </tr>
+                    <tr>
+                        <td>HR</td>
+                        <td>Faith Muli</td>
+                        <td>10</td>
+                        <td><button>Edit</button> <button>Delete</button></td>
+                    </tr>
+                    <!-- Add more departments as needed -->
+                </table>
+                <button>Add New Department</button>
+            </section>
+
+            <section id="procurement">
+                <h2>Procurement</h2>
+                <table>
+                    <tr>
+                        <th>Item
